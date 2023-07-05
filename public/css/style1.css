@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/background.jpeg");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+
+}
+
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgb(249, 237, 71);
+}
+
+.login h1 {
+    font-size: 36px;
+    margin: 25px;
+}
+
+.login form {
+    font-size: 20px;
+
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.logo {
+    height: 100px;
+    float: right;
+}
+
+.registration {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgb(249, 237, 71);
+}
+
+.registration form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.signup {
+    background: rgb(248, 171, 5);
+    margin-left: 30px;
+    border-radius: 4px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: .5rem 1rem;
+    line-height: 2.3;
+}
